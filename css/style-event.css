@@ -1,0 +1,128 @@
+#fxbg{
+    width: 100%;
+    height: 400px;
+    border-bottom: 1px solid #231f20;
+    background: url(../images/fixed_bg/events.jpg) no-repeat center top;
+}
+
+/* filter */
+#filter{
+    background-color: #f7f7f7;
+}
+/*======================*/
+/* ul .shuffle-filter */
+.shuffle-filter {
+    width: 1320px;
+    height: 100px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 25px 0;
+  }
+  .shuffle-filter li {
+    font-family: 'GmarketSansMedium';
+    font-size: 14px;
+    color: #231f20;
+    display: block;
+    width: fit-content;
+    float: left;
+    margin-right: 80px;
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+  }
+  .shuffle-filter li::after{
+    position: absolute; 
+    content:''; 
+    display: block; 
+    border-bottom: 2px solid #e7685d; 
+    transition: width 250ms ease-out; 
+    bottom: 10px;
+    left: auto; 
+    right: 0;  
+    width: 0;
+}
+.shuffle-filter li:hover, .shuffle-filter .selected{
+    color: #e7685d;
+    text-decoration: none;
+}
+.shuffle-filter li:hover::after, .shuffle-filter .selected::after{
+    width: 100%; 
+    left: 0; 
+    right: auto;
+}
+  /*======================*/
+  /* ul shuffle-container*/
+  .shuffle-container {
+    max-width: 100%;
+    margin: 80px auto 0;
+    padding: 50px 0;
+  }
+  .shuffle-container li{
+    cursor: pointer;
+  }
+  .shuffle-container li figure {
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  #events{
+    width: 1320px;
+    margin: auto;
+  }
+  figure{
+    position: relative;
+  }
+  .ontag{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .shuffle-container li[data-groups*="over"] img{
+    filter: brightness(50%);
+  }
+  .shuffle-container li[data-groups*="over"]:hover img{
+    filter: brightness(80%);
+  }
+  .shuffle-container li figure> img{
+    transition: all .6s;
+  }
+  .shuffle-container li:hover figure> img{
+    transform: scale(.9);
+  }
+  .shuffle-container li figure figcaption:last-child{
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+  }
+#popup01{
+    display: none;
+}
+#popup01{
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -400px;
+    z-index: 2;
+}
+.close{
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    text-align: right;
+}
+.backon{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000000b4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
