@@ -242,7 +242,8 @@ body{
     padding-top: 11px;
     position: absolute;
     top: 800px;
-    left: 42%;
+    left: 50%;
+    transform: translateX(-110%);
   }
   .swiper-button-next{
     display: block;
@@ -257,7 +258,8 @@ body{
     padding-top: 11px;
     position: absolute;
     top: 800px;
-    right: 42%;
+    right: 50%;
+    transform: translateX(110%);
   }
   .swiper-button-next.swiper-button-disabled{
     display: none;
@@ -265,7 +267,8 @@ body{
 .submit a{
     position: absolute;
     top: 778px;
-    right: 42%;
+    right: 50%;
+    transform: translateX(110%);
     width: 146px;
     height: 48px;
     border-radius: 50px;
