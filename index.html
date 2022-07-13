@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1400">
+  <!--다른 매체에서도 너비 오류 없이 볼 수 있게-->
+  <link href="images/favicon.png" rel="icon" type="image/png" sizes="32x32">
+  <!--파비콘-->
+  <title>Tout Le Monde</title>
+
+  <!-- 슬라이드 css -->
+  <link href="css/slide/swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+  <link href="css/slide/slidebanner.css" rel="stylesheet" type="text/css">
+  <!--디자인에 맞게 수정-->
+
+  <!-- 갤러리 css -->
+  <link href="css/gallery/slick.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+  <link href="css/gallery/slick-theme.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+  <link href="css/gallery/gallery1.css" rel="stylesheet" type="text/css"><!-- 디자인에 맞게 수정 -->
+
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- 내 스타일 -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header -->
+  <div id="header">
+    <div class="header_inner">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="뚜르몽드 로고"></a>
+
+      <ul class="nav">
+        <li><a href="brand-story.html">브랜드 소개</a>
+          <div class="sub">
+            <div class="sub_inner">
+              <ul class="sub_menu">
+                <li><a href="brand-story.html">Tout Le Monde</a></li>
+                <li><a href="#">비건이란</a></li>
+              </ul>
+              <ul class="sub_menu">
+                <li><a href="order-1premade.html">완제품</a></li>
+                <li><a href="order-2custom.html">주문제작</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="order-1premade.html">주문하기</a>
+          <div class="sub">
+            <div class="sub_inner">
+              <ul class="sub_menu">
+                <li><a href="brand-story.html">Tout Le Monde</a></li>
+                <li><a href="#">비건이란</a></li>
+              </ul>
+              <ul class="sub_menu">
+                <li><a href="order-1premade.html">완제품</a></li>
+                <li><a href="order-2custom.html">주문제작</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li><a href="recipe.html">비건 레시피</a></li>
+        <li><a href="event.html">이벤트</a></li>
+      </ul>
+
+      <ul class="link">
+        <li><a href="#">
+            <img src="images/search.png" alt="검색하기">
+            <img src="images/search_hover.png" alt="검색하기" class="link_hover">
+          </a></li>
+        <li><a href="#">
+            <img src="images/join.png" alt="회원가입">
+            <img src="images/join_hover.png" alt="회원가입" class="link_hover">
+          </a></li>
+        <li><a href="#">
+            <img src="images/cart.png" alt="장바구니">
+            <img src="images/cart_hover.png" alt="장바구니" class="link_hover">
+          </a></li>
+        <li><a href="#">
+            <img src="images/communication.png" alt="문의하기">
+            <img src="images/communication_hover.png" alt="문의하기" class="link_hover">
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- header -->
+
+  <!-- main banner -->
+  <div id="slide">
+    <!-- 슬라이드 구문 -->
+    <div class="swiper-container slide">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="#"><img src="images/main_banner1.jpg" alt="배너1"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="images/main_banner2.jpg" alt="배너2"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="images/main_banner3.jpg" alt="배너3"></a></div>
+      </div>
+      <!-- 화살표 버튼 -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- 블릿 버튼 -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-- main banner -->
+
+  <!-- best cakes -->
+  <div id="best">
+    <h1>BEST CAKES</h1>
+    <p>뚜르몽드의 대표 케이크입니다. 다양한 맛과모양의 케이크를 소화/칼로리 부담없이 즐겨보세요!</p>
+    <div class="best_inner">
+      <!-- cake1 -->
+      <dl>
+        <a href="#" class="todetails">
+          <dt>[초코&과일] 베리케이크</dt>
+        </a>
+          <dd>
+            <p>초코시트에 바닐라크림, 베리류가 올라간 케이크</p>
+            <p><del>45,000원</del> → <span class="sale_price">40,000원</span></p>
+            <div class="options">
+              <a href="#"><img src="images/bestcake_heart.png" alt="찜하기"> 찜하기</a>
+              <a href="order-1premade-product.html"><img src="images/bestcake_cart.png" alt="구매하기"> 구매하기</a>
+              <a href="order-1premade-product.html" target="_blank"><img src="images/bestcake_newwindow.png" alt="새창열기"> 새창열기</a>
+            </div>
+            <div class="bestimg">
+              <img src="images/best_cake1-no shadow.png" alt="베스트 케이크1">
+            </div>
+            <div class="cake_shadow"></div>
+          </dd>
+        
+      </dl>
+      <!-- cake1 -->
+
+      <!-- cake2 -->
+      <dl>
+        <a href="#" class="todetails">
+          <dt>[초코] 초코볼 케이크</dt>
+        </a>
+          <dd>
+            <p>초코시트와 초콜렛 크림, 초코 볼이 올라간 케이크</p>
+            <p><del>40,000원</del> → <span class="sale_price">30,000원</span></p>
+            <div class="options">
+              <a href="#"><img src="images/bestcake_heart.png" alt="찜하기"> 찜하기</a>
+              <a href="#"><img src="images/bestcake_cart.png" alt="구매하기"> 구매하기</a>
+              <a href="#"><img src="images/bestcake_newwindow.png" alt="새창열기"> 새창열기</a>
+            </div>
+            <div class="bestimg">
+              <img src="images/best_cake2-no shadow.png" alt="베스트 케이크2">
+            </div>
+            <div class="cake_shadow"></div>
+          </dd>
+      </dl>
+      <!-- cake2 -->
+
+      <!-- cake3 -->
+      <dl>
+        <a href="#" class="todetails">
+          <dt>[과일] 레드케이크</dt>
+        </a>
+          <dd>
+            <p>초코시트에 바닐라크림, 베리류가 올라간 케이크</p>
+            <p><del>45,000원</del> → <span class="sale_price">40,000원</span></p>
+            <div class="options">
+              <a href="#"><img src="images/bestcake_heart.png" alt="찜하기"> 찜하기</a>
+              <a href="#"><img src="images/bestcake_cart.png" alt="구매하기"> 구매하기</a>
+              <a href="#"><img src="images/bestcake_newwindow.png" alt="새창열기"> 새창열기</a>
+            </div>
+            <div class="bestimg">
+              <img src="images/best_cake3-no shadow.png" alt="베스트 케이크3">
+            </div>
+            <div class="cake_shadow"></div>
+          </dd>
+      </dl>
+      <!-- cake3 -->
+    </div>
+  </div>
+  <!-- best cakes -->
+
+  <!-- brand introduction -->
+  <div id="bi">
+    <div class="bi_inner">
+      <h2>Tout Le Monde</h2>
+      <h3>뚜르몽드란,</h3>
+      <p>모든 사람, 남녀노소라는 의미의 프랑스어로,<br>
+        <b>모든 사람을 위한 케이크</b>라는 의미를 담았습니다.</p>
+      <p>
+        계란, 유제품,설탕을 사용하지 않고 만든 <b>비건 케이크</b>를 판매합니다. 
+      </p>
+
+      <div data-aos="fade-down" data-aos-duration="1000"><img src="images/logo_brand_intro.png.jpg" alt="로고" class="brandinfo"></div>
+      <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300"><img src="images/circle.png" alt="회전글자" class="circle"></div>
+      <div data-aos="fade-right" data-aos-easing="ease-out" data-aos-duration="1000" data-aos-delay="400"><a href="brand-story.html">View More <img src="images/arrow_more.png" alt="화살표"></a></div>
+    </div>
+  </div>
+  <!-- brand introduction -->
+
+  <!-- review -->
+  <div id="review">
+    <div class="rv_inner">
+      <h1 class="title right">REVIEW</h1>
+      <p class="exp right">뚜르몽드의 케이크를 즐긴 분들의 솔직한 후기!</p>
+      <table>
+        <tr>
+          <td rowspan="2" colspan="5" data-aos="zoom-out-right">
+            <a href="#"><img src="images/review/review1.png" alt="리뷰1">
+            <div class="reviewhoverbox reviewhover1">
+              <h3>맛있어요!</h3>
+              <p>
+                비건케이크는 맛이 없을 것 같은 편견이<br>
+                있는데 건강하면서도 맛있어서 놀랐어요!<br>
+                소화도 편하네요. 또 먹고싶어요~!
+              </p>
+              <p class="heart">
+                ❤❤❤❤
+              </p>
+              <p class="id">
+                dd*** 님
+              </p>
+            </div></a>
+          </td>
+          <td rowspan="2" colspan="2" data-aos="zoom-out-down">
+            <a href="#"><img src="images/review/review2.png" alt="리뷰2">
+            <div class="reviewhoverbox reviewhover2">
+              <h3>좋아요</h3>
+              <p>
+                비건케이크는 처음 먹어보는데<br>
+                그냥 케이크보다 맛있네요<br>
+                칼로리는 낮고 맛은 더 좋고 동물도 생각하고 일석삼조^^
+              </p>
+              <p class="heart">
+                ❤❤❤❤❤
+              </p>
+              <p class="id">
+                bs*** 님
+              </p>
+            </div></a>
+          </td>
+          <td colspan="2" data-aos="zoom-out-down">
+            <a href="#"><img src="images/review/review3.png" alt="리뷰3">
+            <div class="reviewhoverbox reviewhover3">
+              <h3>잘먹었습니다.</h3>
+              <p>
+                먹어도 부담스럽지 않아 좋아요
+              </p>
+              <p class="heart">
+                ❤❤❤❤❤
+              </p>
+              <p class="id">
+                re**** 님
+              </p>
+            </div></a>
+          </td>
+          <td rowspan="3" colspan="3" data-aos="zoom-out-left">
+            <a href="#"><img src="images/review/review4.png" alt="리뷰4">
+            <div class="reviewhoverbox reviewhover4">
+              <h3>항상 맛있게 먹어요^^</h3>
+              <p>
+                뚜르몽드 케이크를 맛본 후에는
+                여기서만 사먹어요~!!
+              </p>
+              <p class="heart">
+                ❤❤❤❤❤
+              </p>
+              <p class="id">
+                du** 님
+              </p>
+            </div></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" data-aos="zoom-out">
+            <a href="#"><img src="images/review/review5.png" alt="리뷰5">
+            <div class="reviewhoverbox reviewhover5">
+              <h3>우리가족 원픽👍</h3>
+              <p>
+                가족들이 다 잘먹어요
+              </p>
+              <p class="heart">
+                ❤❤❤❤
+              </p>
+              <p class="id">
+                nl***** 님
+              </p>
+            </div></a>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <a href="#"><img src="images/review/review6.png" alt="리뷰6" data-aos="zoom-out-right">
+            <div class="reviewhoverbox reviewhover6">
+              <h3>맛있어요!</h3>
+              <p>
+                또 먹고싶어요~!
+              </p>
+              <p class="heart">
+                ❤❤❤❤
+              </p>
+              <p class="id">
+                po****** 님
+              </p>
+            </div></a>
+          </td>
+          <td colspan="4">
+            <a href="#"><img src="images/review/review7.png" alt="리뷰7" data-aos="zoom-out-up">
+            <div class="reviewhoverbox reviewhover7">
+              <h3>가끔</h3>
+              <p>
+                다이어트 보상으로 한번씩 먹어요~<br>
+                행복의 맛~😍
+              </p>
+              <p class="heart">
+                ❤❤❤❤❤
+              </p>
+              <p class="id">
+                sn** 님
+              </p>
+            </div></a>
+          </td>
+          <td colspan="3">
+            <a href="#"><img src="images/review/review8.png" alt="리뷰8" data-aos="zoom-out-up">
+            <div class="reviewhoverbox reviewhover8">
+              <h3>아이들에게 먹이기 좋네요</h3>
+              <p>
+                유제품 소화를 잘 못하는 아이들에게도<br>
+                케이크를 맛보게 해줄수 있어서 좋습니다 <br>
+                추천해요~!
+              </p>
+              <p class="heart">
+                ❤❤❤❤
+              </p>
+              <p class="id">
+                qu*** 님
+              </p>
+            </div></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <!-- review -->
+
+  <!-- recipe -->
+  <div id="recipe">
+    <div class="recipe_inner">
+      <h1 class="title left">RECIPE</h1>
+      <div class="tab">
+        <ul class="tabnav">
+          <li><a href="#tab01">#초콜렛케이크</a></li>
+          <li><a href="#tab02">#과일케이크</a></li>
+          <li><a href="#tab03">#인기레시피</a></li>
+        </ul>
+        <a href="recipe.html" class="viewmore">레시피 더보기 <img src="images/more_arrow_black.png" alt="더보기"></a>
+        <div class="tabcontent">
+          <div id="tab01"> <!-- 초콜렛케이크 -->
+            <!-- 갤러리 구문 -->
+            <section class="regular slider">
+              <div>
+                <img src="images/youtube/youtube2.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube4.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube6.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube10.png" alt="비건케이크">
+              </div>              
+            </section>
+          </div>
+          <div id="tab02"> <!-- 과일케이크 -->
+            <!-- 갤러리 구문 -->
+            <section class="regular slider">
+              <div>
+                <img src="images/youtube/youtube4.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube6.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube7.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube8.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube11.png" alt="비건케이크">
+              </div>
+            </section>
+          </div>
+          <div id="tab03"> <!-- 인기레시피 -->
+            	<!-- 갤러리 구문 -->
+            <section class="regular slider">
+              <div>
+                <img src="images/youtube/youtube1.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube2.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube3.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube5.png" alt="비건케이크">
+              </div>
+              <div>
+                <img src="images/youtube/youtube9.png" alt="비건케이크">
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- recipe -->
+
+  <!-- inquiry -->
+  <div id="inquiry">
+    <div class="iqr_inner"> 
+      <a href="order-2custom.html" class="iqr">문의하기 <img src="images/more_arrow_black.png" alt="더보기"></a>
+      <h1 class="title right">inquiry</h1>
+      <p class="exp right">주문제작 / 취소환불 문의 등</p>
+      
+      <dl data-aos="fade-right">
+        <dt><img src="images/25percent.png" alt="25%"></dt>
+        <dd>1단계</dd>
+        <dd>문의내용 접수 
+          <blockquote> 
+            - 커스텀 제작 주문<br>
+            - 취소/환불
+          </blockquote>
+        </dd>
+      </dl>
+      <dl data-aos="fade-right" data-aos-delay="200">
+        <dt><img src="images/50percent.png" alt="50%"></dt>
+        <dd>2단계</dd>
+        <dd>문의내용 상담 
+          <blockquote> 
+            - 디자인<br>
+            - 취소 가능 여부 확인 
+          </blockquote>
+        </dd>
+      </dl>
+      <dl data-aos="fade-right" data-aos-delay="400">
+        <dt><img src="images/75percent.png" alt="75%"></dt>
+        <dd>3단계</dd>
+        <dd>
+          일정협의 / <br>
+          환불 절차 접수
+        </dd>
+      </dl>
+      <dl data-aos="fade-right" data-aos-delay="600">
+        <dt><img src="images/100percent.png" alt="100%"></dt>
+        <dd>4단계</dd>
+        <dd>
+          제작 및 픽업 / <br>
+          환불 및 안내
+        </dd>
+      </dl>
+    </div>
+  </div>
+  <!-- inquiry -->
+
+  <!-- map -->
+  <div id="map">
+    <div class="map_inner">
+
+      <h1 class="title left">오시는길</h1>
+      <div data-aos="fade-down">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.072139018921!2d129.1202772!3d35.154821600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ed2e8176ac35%3A0xf90900e0d7714fbb!2z67aA7IKw6rSR7Jet7IucIOyImOyYgeq1rCDqtJHslYjtlbTrs4DroZwgMjQx!5e0!3m2!1sko!2skr!4v1655280560970!5m2!1sko!2skr" width="1320" height="345" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="infowrap" data-aos="fade-down" data-aos-delay="200">
+        <div class="info">
+          <img src="images/address.png" alt="주소">
+          <h5>주소</h5>
+          <p>부산광역시 수영구<br>광안해변로 241</p>
+        </div>
+        <div class="info">
+          <img src="images/phone.png" alt="전화">
+          <h5>전화</h5>
+          <p>051. 510. 1234<br>010. 5678. 1234</p>
+        </div>
+        <div class="info">
+          <img src="images/mail.png" alt="이메일">
+          <h5>메일</h5>
+          <p>contact<br>@toutlemonde.com</p>
+        </div>
+        <div class="info_transport">
+          <img src="images/bus.png" alt="버스" class="busicon">&nbsp;
+          <h5 class="bus">버스&nbsp;&nbsp;&nbsp;</h5>
+          <p>41, 42, 62, 108 <br>광안리해수욕장 정류장</p>
+        </div>
+        <div class="info_transport">
+          <img src="images/subway.png" alt="지하철" class="subwayicon">&nbsp;
+          <h5 class="subway">지하철</h5>&nbsp;
+          <p>2호선 광안역<br> 3번/5번 출구</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- map -->
+
+  <!-- footer -->
+    <div id="footer">
+      <div class="footer_inner">
+        <a href="#" class="footlogo"><img src="images/logo_white.png" alt="로고"></a>
+
+        <div class="ftcontent">
+          <p><a href="#">이용약관</a>  |  <a href="#">개인정보처리방침</a>  |  <a href="#">이메일무단수집거부</a></p>
+          <p><b>고객센터</b> 051-123-4567</p>
+          <p>평일 AM 9:30 ~ PM 5:30 <br>
+            주말·공휴일 휴무</p>
+          <p>통신판매업신고번호: 2022-부산진-0000  |  사업자등록번호: 000-00-00000 뚜르몽드</p>
+        </div>
+
+        <div class="sns">
+          <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="인스타그램"></a>
+        <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="유튜브"></a>
+        <a href="https://ko-kr.facebook.com/login/device-based/regular/login/" target="_blank"><img src="images/facebook.png" alt="페이스북"></a>
+        <a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo" target="_blank"><img src="images/kakaotalk.png" alt="카카오톡"></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© COPYRIGHT  Tout Le Monde</p>
+      </div>
+    </div>
+  <!-- footer -->
+
+  <!-- top버튼 -->
+  <a href="#" class="top">Top</a>
+  <!-- top버튼 -->
+
+
+  <!-- 제이쿼리 라이브러리,수정X -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  
+  <!-- 슬라이드 js -->
+  <script src="script/slide/swiper.min.js"></script><!-- 수정X -->
+  <script src="script/slide/slidebanner.js"></script><!--디자인에 맞게 수정-->
+  
+  <!-- 레시피 탭메뉴 제이쿼리 -->
+  <script src="script/tab/tab.js"></script>
+  
+  <!-- 레시피 갤러리(슬라이드) js -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="script/gallery/slick.js"></script><!-- 수정X -->
+	<script src="script/gallery/gallery1.js"></script><!-- 디자인에 맞게 수정 -->
+  
+  <!-- aos 라이브러리 -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="script/aos/aos.js"></script><!-- aos 소스 -->  
+
+  <!-- 내 js -->
+  <script src="script/script.js"></script>
+  <script>
+    //top버튼 나타나기
+  $(window).scroll(function () {
+    var height = $(window).scrollTop();
+    if (height > 1000) {
+      $('.top').fadeIn();
+    } else {
+      $('.top').fadeOut();
+    }
+  });
+
+  $('.top').click(function () {
+    $('html, body').animate({ scrollTop: 0 }, 400);
+    return false;
+  });
+  </script>
+</body>
+
+</html>
